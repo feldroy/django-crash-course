@@ -42,5 +42,3 @@ _Coming soon: more chapters!_
 ## Alpha Changelog 2020-02-03
 
 - Release of the alpha!
-
-\pagebreak
