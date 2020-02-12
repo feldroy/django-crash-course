@@ -2,6 +2,17 @@
 
 _Coming soon: more chapters!_
 
+## Alpha Changelog 2020-02-11
+
+- Described Django settings as constants
+- Converted chapter 26 to use Django 3-style enums
+- Pronoun corrections in numerous chapters
+- Image size optimizations to reduce filesize
+- Added calling `code` command from shell for Mac in Ultimate Django Setup chapter
+- Added summary to chapter 6
+- Fixed chapter 11 `context['my_statement']` result to say 'Nice to see you!'
+- Added chapter 50: Updating the cheese factory
+
 ## Alpha Changelog 2020-02-07
 
 - ePub TOC now only lists chapter level items
