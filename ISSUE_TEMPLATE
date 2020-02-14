@@ -1,13 +1,14 @@
-## IMPORTANT NOTES! (Delete this section when you submit your issue)
+## Greetings! 
 
-1. Please do not identify issues by page numbers. The page numbers shift constantly, each change, addition, and deletion has the potential to change which page number material falls under. Also, PDFs have both the file count and the book count, confusing the matter further.
-2. For the ALPHA phase, we have intentionally placed TODOs so readers know we are going to expand an area. Because of this, reporting TODOs during the ALPHA period **does not** qualify as an attributable item.
+Hello! As a reader, you're encouraged to submit bug reports to us for errors that you find. In turn we will give you credit for your contributions in not just the e-book but also in the print paperback and online publicly on the web. This is your opportunity to have your name in one of our books as a contributor, which you are then welcome to add to your resume and LinkedIn profile.
 
 ## Location within the Book
 
 * Chapter or Appendix:
 * Section:
 * Subsection:
+
+Hint: Page numbers change all the time. The best way to report an issue is by chapter, section, and subsection numbers.
 
 ## Description 
 
@@ -16,3 +17,5 @@
 ```
 If code-related, enter it within these backticks. Otherwise, delete this segment.
 ```
+
+TODOs are markers to to let you know we are going to expand an area. Because of this, reporting TODOs during the ALPHA and BETA period **does not** qualify as an attributable item.
