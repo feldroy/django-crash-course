@@ -1,6 +1,21 @@
 # Changelog
 
-_Coming soon: more chapters!_
+_The alpha period is concluded. Further updates will be cosidered beta updates._
+
+## Alpha Changelog 2020-02-14
+
+- Imported more art!
+- New tip and warning icons
+- More pronoun corrections
+- Removed mention of `UnitTest` from several chapters
+- Note in Ultimate Django Setup about using alternatives to conda
+- In Ultimate Django Setup added instruction for CLI tools for Mac
+- Finished fixing chapter 11 `context['my_statement']` dialogue to say 'Nice to see you!'
+- Chapter 15 updates: `django-crash-starter` Cookiecutter prompts updated to match current template, and fix escaping and margins
+- More clear description of allauth source code in chapter 21
+- Now calling Cheese firmness the correct way in chapter 27, 40, and 41
+- Wrote literal definition of Cheese Factory to chapter 39
+- Added chapters 51, 52, 53, 54, and 55! All chapters are in! Hooray!
 
 ## Alpha Changelog 2020-02-11
 
@@ -20,11 +35,11 @@ _Coming soon: more chapters!_
 - Fixed pytest segments
 - upgraded from legacy `django.core.urlresolvers.reverse` to modern `django.urls.reverse`
 - Foriegn keys now have `on_delete` arguments set
-- Minor grammer corrections
+- Minor grammar corrections
 - Better description faker material so it's more obvious what's going on
 - Describe git commit messages to better reflect the content of their chapters
-- Added how to give feedback to the "next steps" chapter
 - Cleanup on chapters 37 to 49. Next up, getting more chapters into the book!
+- Added how to give feedback to the next steps chapter
 
 ## Alpha Changelog 2020-02-05
 
