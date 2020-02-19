@@ -1,6 +1,21 @@
 # Changelog
 
-_The alpha period is concluded. Further updates will be cosidered beta updates._
+_All chapters are now in the book!_
+
+## Beta Changelog 2020-02-XX {-}
+
+- Pronoun corrections across the book
+- Specific Django version in the introduction
+- Various grammar fixes
+- Removed `vendor.js` from `django-crash-starter`
+- Corrected Spanish in chapter 8
+- Now using `django-crash-starter` as a name consistently
+- Added missing exit from psql in chapter 17
+- Accepted PR that patched the totally borked `django-crash-starter`
+- For repo creation in chapter 19, corrected text and image
+- Made HTML in chapter 35 match what exists in `django-crash-starter`
+- Added missing closing backtick in chapter 35
+- Fixed broken test in chapter 41
 
 ## Alpha Changelog 2020-02-14
 
