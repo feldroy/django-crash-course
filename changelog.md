@@ -2,7 +2,7 @@
 
 _All chapters are now in the book!_
 
-## Beta Changelog 2020-02-XX {-}
+## Beta Changelog 2020-02-19 {-}
 
 - Pronoun corrections across the book
 - Specific Django version in the introduction
