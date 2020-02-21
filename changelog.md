@@ -2,6 +2,21 @@
 
 _All chapters are now in the book!_
 
+## Beta Changelog 2020-02-21
+
+- Code examples are now at 70% scale, meaning code overlaps should be a thing of the past
+- The PDF now uses Source Code Pro as the code font
+- Added section in introduction titled **Why Learn Django?**
+- Linux instructions for installing Conda in the Ultimate Django Setup, authored by Enrique Matías Sánchez
+- Added unidecode to django-crash-starter to deal with future unicode issues like `Κεφαλοτύρι`
+- Added another troubleshooting link for Conda on Mac in the Ultimate Setup Chapter.
+- Added troubleshooting instructions for GCC failures on the Mac in chapter 17
+- Windows users now have troubleshooting instructions for MS Visual Studio code failures in chapter 17
+- Put figures (images) into their right places in chapters 22 and 23
+- Chapter 24 test run example now lists the correct number of tests
+- Troubleshooting non-ASCII characters added to chapter 45
+- Rewrote chapter 56, next steps
+
 ## Beta Changelog 2020-02-19
 
 - Pronoun corrections across the book
