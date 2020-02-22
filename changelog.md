@@ -2,6 +2,14 @@
 
 _All chapters are now in the book!_
 
+## Beta Changelog 2020-02-22
+
+- Added the cover back to the PDF version
+- Fixed epub metadata so Audrey shows up as author
+- Made some explanations more concise per the classic `Two Scoops of Django` style
+- Minor grammar and spelling corrections
+- Added explanation for `as_view()` method in Chapter 9
+
 ## Beta Changelog 2020-02-21
 
 - Code examples are now at 70% scale, meaning code overlaps should be a thing of the past
