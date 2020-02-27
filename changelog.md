@@ -2,6 +2,18 @@
 
 _All chapters are now in the book!_
 
+## Beta Changelog 2020-02-26
+
+- Minor grammar and spelling corrections
+- Replaced old summary with chapter 16 with 16.2 paragraphs
+- Combine end text for chapter 16 with start text in chapter 17 to be new start text of chapter 17
+- Put **verify your email** image into correct place within chapter 22
+- Explained source of `cheese_list` in chapter 35
+- Properly use cheese firmness in chapter 41
+- Use **f-strings** instead of `format()` in chapter 41
+- Correct git message in chapter 41
+- Added tipbox in chapter 52 explaining that `assertContains` includes an HTTP status check
+
 ## Beta Changelog 2020-02-22
 
 - Added the cover back to the PDF version
