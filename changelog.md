@@ -2,6 +2,17 @@
 
 _All chapters are now in the book!_
 
+## Beta Changelog 2020-03-03
+
+- Give Christian and Enrique formal credit as tech reviewers
+- Grammar and spelling corrections, including some embarressingly large ones
+- Test `str()` built-in function result in chapters 28 and 41
+- Fixed location of figure 54 in chapter 47
+- Removed unnecessary usage of Stracchino in chapter 51. Up for debate is if there ever an unnecessary usage of cheese
+- Corrected markdown error in chapter 53
+- Used even more flexible approach in chapter 54 to account for form changes
+- Added typesetting to acknowledgements
+
 ## Beta Changelog 2020-02-26
 
 - Minor grammar and spelling corrections
