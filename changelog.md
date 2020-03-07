@@ -2,6 +2,23 @@
 
 _All chapters are now in the book!_
 
+## Beta Changelog 2020-03-07
+
+- Made all chapters except the introduction have a number, this is to make referencing code examples easier
+- Added Fabio as a tech reviewer
+- Warning box for password managers had the word "names" corrected to "passwords"
+- Accepted PR that fixed django-crash-starter
+- Revised Postgres.app installation instructions in chapter 1
+- Rename `README.rst` to `README.md` in chapter 17
+- Replace the reference to `cookiecutter-django` to `django-crash-starter` in chapter 17
+- Refer back to basic url routing in chapter 22
+- Explained `app_name` and `path name` in chapter 34
+- Add mention and links to Factory Boy in chapters 40 and 41
+- Use correct fontface for `country_of_origin` in chapter 44
+- Included missing `app_name` in chapter 46
+- Made `INSTALLED_APPS` a list rather than a tuple in chapter 48
+- Added troubleshooting chapter 58 and began moving troubleshooting instructions there
+
 ## Beta Changelog 2020-03-03
 
 - Give Christian and Enrique formal credit as tech reviewers
