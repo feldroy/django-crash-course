@@ -2,6 +2,10 @@
 
 _All chapters are now in the book!_
 
+## Beta Changelog 2020-03-10
+
+- Simplified add/update page titles using view properties rather than the harder-to-test-in-templates `HttpRequest` approach in chapter 55
+
 ## Beta Changelog 2020-03-07
 
 - Made all chapters except the introduction have a number, this is to make referencing code examples easier
