@@ -1,6 +1,16 @@
 # Changelog
 
-_All chapters are now in the book!_
+## Beta Changelog 2020-03-13
+
+- Explained views a little more in chapter 10
+- Reordered some of the text in chapter 5 and removed a duplicate senter in chapter 25
+- Explain Django model Choices and how they are based on Python enums in chapter 27 
+- Specify better where the cheeses path include should go in chapter 35
+- Explain where `get_firmness_display` comes from in chapter 38
+- Add missing code block around output of test results in chapter 42
+- Fixed flawed URL in chapter 46
+- Re-explained basic foreign principles in chapter 49
+- Removed unnecessary import of `assertRedirect` in chapter 53
 
 ## Beta Changelog 2020-03-10
 
