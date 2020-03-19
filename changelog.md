@@ -1,5 +1,13 @@
 # Changelog
 
+## Beta Changelog 2020-03-19
+
+- Small grammar improvements across the book
+- Switched to Latin Modern font in kindle/epub to increase accessibility of code examples across the book
+- Reordered the installation instructions in chapter 1
+- Removed reference to `test.txt` in chapter 18
+- Corrected template tag ending in chapter 55
+
 ## Beta Changelog 2020-03-13
 
 - Explained views a little more in chapter 10
