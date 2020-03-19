@@ -4,18 +4,88 @@ Hello! As a reader, you're encouraged to submit bug reports to us for errors tha
 
 ## Location within the Book
 
-* Chapter or Appendix:
-* Section:
-* Subsection:
+* Chapter or Appendix: Part II Everycheese
+* Section: 18 Starting Up Our New Django Project
+* Subsection: 18.7 Run the Migrations
 
 Hint: Page numbers change all the time. The best way to report an issue is by chapter, section, and subsection numbers.
 
-## Description 
+## Discription:- python manage.py migrate error 
+ i installed pip install django-debug-toolbar ,pip install django-extensions because these packages where missing and later ran the 
+ command :- python manage.py migrate
+ the following error output occoured :- django.db.utils.OperationalError: fe_sendauth: no password supplied
 
-> If grammar, enter problematic text here, otherwise delete this line.
 
 ```
-If code-related, enter it within these backticks. Otherwise, delete this segment.
+(everycheese) C:\Users\pc\Desktop\Django learning\everycheese>python manage.py migrate
+Traceback (most recent call last):
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\backends\base\base.py", line 220, in ensure_connection
+    self.connect()
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\backends\base\base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\backends\postgresql\base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\psycopg2\__init__.py", line 126, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: fe_sendauth: no password supplied
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "manage.py", line 34, in <module>
+    execute_from_command_line(sys.argv)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\core\management\__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\core\management\__init__.py", line 395, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\core\management\base.py", line 328, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\core\management\base.py", line 369, in execute
+    output = self.handle(*args, **options)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\core\management\base.py", line 83, in wrapped
+    res = handle_func(*args, **kwargs)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\core\management\commands\migrate.py", line 86, in handle
+    executor = MigrationExecutor(connection, self.migration_progress_callback)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\migrations\executor.py", line 18, in __init__
+    self.loader = MigrationLoader(self.connection)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\migrations\loader.py", line 49, in __init__
+    self.build_graph()
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\migrations\loader.py", line 212, in build_graph
+    self.applied_migrations = recorder.applied_migrations()
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\migrations\recorder.py", line 76, in applied_migrations
+    if self.has_table():
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\migrations\recorder.py", line 56, in has_table
+    return self.Migration._meta.db_table in self.connection.introspection.table_names(self.connection.cursor())
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\backends\base\base.py", line 260, in cursor
+    return self._cursor()
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\backends\base\base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\backends\base\base.py", line 220, in ensure_connection
+    self.connect()
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\backends\base\base.py", line 220, in ensure_connection
+    self.connect()
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\backends\base\base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\django\db\backends\postgresql\base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "C:\Users\pc\Anaconda3\envs\everycheese\lib\site-packages\psycopg2\__init__.py", line 126, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: fe_sendauth: no password supplied
 ```
 
 ## Possible Solutions
