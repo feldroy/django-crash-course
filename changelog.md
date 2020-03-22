@@ -1,5 +1,9 @@
 # Changelog
 
+## Beta Changelog 2020-03-22
+
+- Working `kindle/mobi` version thanks to Carlos Johnson!
+
 ## Beta Changelog 2020-03-19
 
 - Small grammar improvements across the book
