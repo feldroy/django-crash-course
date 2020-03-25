@@ -1,4 +1,12 @@
-# Changelog
+# Changelog 
+
+## Beta Changelog 2020-03-25
+
+- Changed links and references from **roygreenfeld** to **feldroy** per https://www.feldroy.com/blogs/news/were-now-a-little-company-called-feldroy.
+- Description improvements across the book
+- Fixed two more code overuns
+- Explained why we add `__init__.py` to our `cheeses/tests/` directory in chapter 29
+
 
 ## Beta Changelog 2020-03-22
 
@@ -14,6 +22,7 @@
 
 ## Beta Changelog 2020-03-13
 
+- Reordered the installation steps on chapter 1
 - Explained views a little more in chapter 10
 - Reordered some of the text in chapter 5 and removed a duplicate senter in chapter 25
 - Explain Django model Choices and how they are based on Python enums in chapter 27 
@@ -28,7 +37,7 @@
 
 - Simplified add/update page titles using view properties rather than the harder-to-test-in-templates `HttpRequest` approach in chapter 55
 
-## Beta Changelog 2020-03-07
+## Beta Changelog 2020-03-06
 
 - Made all chapters except the introduction have a number, this is to make referencing code examples easier
 - Added Fabio as a tech reviewer
@@ -45,7 +54,7 @@
 - Made `INSTALLED_APPS` a list rather than a tuple in chapter 48
 - Added troubleshooting chapter 58 and began moving troubleshooting instructions there
 
-## Beta Changelog 2020-03-03
+## Beta Changelog 2020-03-03 
 
 - Give Christian and Enrique formal credit as tech reviewers
 - Grammar and spelling corrections, including some embarressingly large ones
@@ -56,7 +65,7 @@
 - Used even more flexible approach in chapter 54 to account for form changes
 - Added typesetting to acknowledgements
 
-## Beta Changelog 2020-02-26
+## Beta Changelog 2020-02-26 
 
 - Minor grammar and spelling corrections
 - Replaced old summary with chapter 16 with 16.2 paragraphs
@@ -68,15 +77,15 @@
 - Correct git message in chapter 41
 - Added tipbox in chapter 52 explaining that `assertContains` includes an HTTP status check
 
-## Beta Changelog 2020-02-22
+## Beta Changelog 2020-02-22 
 
+- Minor grammar and spelling corrections
 - Added the cover back to the PDF version
 - Fixed epub metadata so Audrey shows up as author
 - Made some explanations more concise per the classic `Two Scoops of Django` style
-- Minor grammar and spelling corrections
 - Added explanation for `as_view()` method in Chapter 9
 
-## Beta Changelog 2020-02-21
+## Beta Changelog 2020-02-21 
 
 - Code examples are now at 70% scale, meaning code overlaps should be a thing of the past
 - The PDF now uses Source Code Pro as the code font
@@ -91,7 +100,7 @@
 - Troubleshooting non-ASCII characters added to chapter 45
 - Rewrote chapter 56, next steps
 
-## Beta Changelog 2020-02-19
+## Beta Changelog 2020-02-19 
 
 - Pronoun corrections across the book
 - Specific Django version in the introduction
@@ -106,7 +115,7 @@
 - Added missing closing backtick in chapter 35
 - Fixed broken test in chapter 41
 
-## Alpha Changelog 2020-02-14
+## Alpha Changelog 2020-02-14 
 
 - Imported more art!
 - New tip and warning icons
@@ -121,7 +130,7 @@
 - Wrote literal definition of Cheese Factory to chapter 39
 - Added chapters 51, 52, 53, 54, and 55! All chapters are in! Hooray!
 
-## Alpha Changelog 2020-02-11
+## Alpha Changelog 2020-02-11 
 
 - Described Django settings as constants
 - Converted chapter 26 to use Django 3-style enums
@@ -132,20 +141,22 @@
 - Fixed chapter 11 `context['my_statement']` result to say 'Nice to see you!'
 - Added chapter 50: Updating the cheese factory
 
-## Alpha Changelog 2020-02-07
+
+## Alpha Changelog 2020-02-07 
 
 - ePub TOC now only lists chapter level items
 - Removed `avatar_tags` template tag reference
 - Fixed pytest segments
 - upgraded from legacy `django.core.urlresolvers.reverse` to modern `django.urls.reverse`
-- Foriegn keys now have `on_delete` arguments set
+- Foreign keys now have `on_delete` arguments set
 - Minor grammar corrections
 - Better description faker material so it's more obvious what's going on
 - Describe git commit messages to better reflect the content of their chapters
 - Cleanup on chapters 37 to 49. Next up, getting more chapters into the book!
 - Added how to give feedback to the next steps chapter
 
-## Alpha Changelog 2020-02-05
+
+## Alpha Changelog 2020-02-05 
 
 - Fix for digits at the end of some PDF links
 - Make lowercase code segments like `#!/Usr/Bin/Env Python` and `__Str__` caused by an overzealous titlecase script
@@ -161,7 +172,7 @@
 - Cleanup on chapter 35
 - Cleanup on chapter 36
 
-## Alpha Changelog 2020-02-04
+## Alpha Changelog 2020-02-04 
 
 - Added acknowledgements and changelog sections
 - Fixed conda setup for hellodjango project
@@ -169,6 +180,6 @@
 - URL path corrections 
 - Removed `:` suffix from `cookiecutter` command
 
-## Alpha Changelog 2020-02-03
+## Alpha Changelog 2020-02-03 
 
 - Release of the alpha!
