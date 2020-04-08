@@ -1,5 +1,14 @@
 # Changelog 
 
+## Beta Changelog 2020-04-08
+
+- Tweaked the Kindle/Mobi render so it should work in all devices
+- Various small grammar edits
+- Improved installation git instructions in Chapter 1
+- Added Configuring git section in Chapter 1
+- Improvde install vscode on Mac instructions in Chapter 1
+- Closed paranthesis in description of tests in chapter 42
+
 ## Beta Changelog 2020-03-25
 
 - Changed links and references from **roygreenfeld** to **feldroy** per https://www.feldroy.com/blogs/news/were-now-a-little-company-called-feldroy.
