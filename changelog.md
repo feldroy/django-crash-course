@@ -1,13 +1,31 @@
 # Changelog 
 
+## Beta Changelog 2020-04-14
+
+- Made clarifications to the windows VS Code installation instructions in the Ultimate Django Setup Chapter
+- Made clarifications to the Mac VS Code installation instructions in the Ultimate Django Setup Chapter
+- Provided a warning to users of Safari on Mac and finding downloaded files in the Ultimate Django Setup Chapter
+- Removed TODO from the Ultimate Django Setup Chapter
+- Broke up Git installation instructions for Windows and Mac in the Ultimate Django Setup Chapter
+- Added global Git configuration to the Ultimate Django Setup Chapter 
+- Improved the Conda instructions in the Ultimate Django Setup Chapter 
+- New Linux content!
+    - Added Git installation instructions for Linux to the Ultimate Django Setup Chapter
+    - Added Linux VS Code installation instructions to the Ultimate Django Setup Chapter
+    - Added PostgreSQL instructions for Linux to the  Ultimate Django Setup Chapter 
+- Remove backticks from first commit message in chapter 20
+- Added `UserDetailView` comments to `django-crash-starter` to match what we show in chapter 22
+- Tiny grammar fix in chapter 45 
+- Fixed spelling in the changelog
+
 ## Beta Changelog 2020-04-08
 
 - Tweaked the Kindle/Mobi render so it should work in all devices
 - Various small grammar edits
 - Improved installation git instructions in Chapter 1
 - Added Configuring git section in Chapter 1
-- Improvde install vscode on Mac instructions in Chapter 1
-- Closed paranthesis in description of tests in chapter 42
+- Improve installation of vscode on Mac instructions in Chapter 1
+- Closed parenthesis in the description of tests in chapter 42
 
 ## Beta Changelog 2020-03-25
 
