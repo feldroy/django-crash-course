@@ -9,9 +9,9 @@ formatting. Example code is provided "as is".
 Permissions
 ============
 In general, you may use the code we've provided with this book in your
-programs and documentation. You do not need to contact us for permission
-unless you're reproducing a significant portion of the code and using it in
-commercial educational distributions. Examples:
+programs . You do not need to contact us for permission unless you're
+reproducing a significant portion of the code and using it in educational
+distributions. Examples:
 * Writing an education program or book that uses several chunks of code from
     this course requires permission.
 * Selling or distributing a digital package from material taken from this
