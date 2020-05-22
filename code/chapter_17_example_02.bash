@@ -26,6 +26,4 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-You've cloned /Users/audreyr/.cookiecutters/
-    django-crash-starter before. Is it okay to 
-    delete and re-clone it? [yes]: 
+TIME_ZONE = 'UTC'

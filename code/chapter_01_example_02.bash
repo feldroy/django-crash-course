@@ -26,5 +26,5 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-$ git config --global user.name "Replace this by your full name"
-$ git config --global user.email replace.by.your.email.@sample.com
+git config --global user.name "replace this with your full name"
+git config --global user.email "replace this with your email address"

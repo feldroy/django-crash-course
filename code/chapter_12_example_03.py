@@ -28,17 +28,7 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-# No need to type this out, just study it!
-from django.shortcuts import render
-from django.views.generic import View
-from .mixins import BaseProjectMixin
-
-class ItemDetailView(BaseProjectMixin, View):
-    def get(self, request, *args, **kwargs):
-        value = self.complex_data(request)
-        return render(request, 'details.html', {'value': value})
-
-class ThingDetailView(BaseProjectMixin, View):
-    def get(self, request, *args, **kwargs):
-        value = self.complex_data(request)
-        return render(request, 'things.html', {'value': value})
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['my_statement'] = 'Nice to see you!'
+        return context

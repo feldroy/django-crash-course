@@ -1,4 +1,3 @@
-"""
 Using This Code Example
 =========================
 The code examples provided are provided by Daniel and Audrey Feldroy of
@@ -26,19 +25,8 @@ Audrey Feldroy. Copyright 2020 Feldroy."
 
 If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
-"""
 
-# No need to type this out, just study it!
-from django.shortcuts import render
-from django.views.generic import View
-from .mixins import BaseProjectMixin
 
-class ItemDetailView(BaseProjectMixin, View):
-    def get(self, request, *args, **kwargs):
-        value = self.complex_data(request)
-        return render(request, 'details.html', {'value': value})
-
-class ThingDetailView(BaseProjectMixin, View):
-    def get(self, request, *args, **kwargs):
-        value = self.complex_data(request)
-        return render(request, 'things.html', {'value': value})
+You've cloned /Users/audreyr/.cookiecutters/
+    django-crash-starter before. Is it okay to 
+    delete and re-clone it? [yes]: 
