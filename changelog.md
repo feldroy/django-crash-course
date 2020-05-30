@@ -1,5 +1,37 @@
 # Changelog 
 
+## Beta Changelog 2020-05-28
+
+- Close all `{% endblock %}` tags consistently across the book 
+- Properly donate code blocks across the book that were missing code hilighting
+- Remove internal cruft from across the book
+- Added a pagebreak between Part I intro and Chapter 2
+- Added short intro to chapter 5 
+- Remove unnecessary `{sample}` tag in chapter 16
+- Be more explicit for windows users when running Cookiecutter in chapter 16
+
+## Beta Changelog 2020-05-23
+
+- Added link to code at https://github.com/feldroy/django-crash-course/tree/master/code in introduction
+- More easily understood git config instructions in chapter 1
+- Added missing import to code example in chapter 33
+- Fixed code highlighting in chapters 12, 13, 16, 17, and 24
+
+## Beta Changelog 2020-05-09
+
+- Windows users are now on sqlite in Chapter 1 and 16
+- Removed TODO for using VS Code to set up SSH keys in Chapter i1
+- Linked to other authored books in chapter 57
+
+## Beta Changelog 2020-05-04
+
+- Grammar and spelling review in Chapter 1
+- Changed "Installing Git on Windows" tutorial to use CMD instead Anaconda Prompt to check if git was successfully installed in Chapter 1
+- Updated the short link of the vscode quick install script in Chapter 1
+- Updated the short link of the PostgreSQL 12 quick install script in Chapter 1
+- Revised PostgreSQL setup for Windows in Chapter 1
+- Added Two Scoops of Django to Chapter 59
+
 ## Beta Changelog 2020-04-14
 
 - Made clarifications to the windows VS Code installation instructions in the Ultimate Django Setup Chapter
