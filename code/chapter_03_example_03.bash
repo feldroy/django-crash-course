@@ -26,4 +26,4 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-(hellodjango) $
+conda activate hellodjango

@@ -31,7 +31,7 @@ given here, please contact us at hi@feldroy.com.
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
 
-{% block title %}Add Cheese{% endblock %}
+{% block title %}Add Cheese{% endblock title %}
 
 {% block content %}
 <h1>Add Cheese</h1>
@@ -40,4 +40,4 @@ given here, please contact us at hi@feldroy.com.
   {{ form|crispy }}
   <button type="submit" class="btn btn-primary">Save</button>
 </form>
-{% endblock %}
+{% endblock content %}

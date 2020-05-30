@@ -1,4 +1,4 @@
-<!--
+"""
 Using This Code Example
 =========================
 The code examples provided are provided by Daniel and Audrey Feldroy of
@@ -26,22 +26,8 @@ Audrey Feldroy. Copyright 2020 Feldroy."
 
 If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
--->
+"""
 
-{% extends "base.html" %}
-
-{% block title %}Cheeses: {{ cheese.name }}{% endblock title %}
-
-{% block content %}
-
-<h2>{{ cheese.name }}</h2>
-
-{% if cheese.firmness %}
-    <p>Firmness: {{ cheese.get_firmness_display }}</p>
-{% endif %}
-
-{% if cheese.description %}
-    <p>{{ cheese.description }}</p>
-{% endif %}
-
-{% endblock content %}
+# SECURITY WARNING: Keep the Secret Key Used 
+#                       in Production Secret!
+SECRET_KEY = '39)b-_1aga9eauydabb((b^4+1hmao'

@@ -1,4 +1,4 @@
-<!--
+"""
 Using This Code Example
 =========================
 The code examples provided are provided by Daniel and Audrey Feldroy of
@@ -26,22 +26,17 @@ Audrey Feldroy. Copyright 2020 Feldroy."
 
 If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
--->
+"""
 
-{% extends "base.html" %}
+# Internationalization
+# https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-{% block title %}Cheeses: {{ cheese.name }}{% endblock title %}
+LANGUAGE_CODE = 'en-us'
 
-{% block content %}
+TIME_ZONE = 'UTC'
 
-<h2>{{ cheese.name }}</h2>
+USE_I18N = True
 
-{% if cheese.firmness %}
-    <p>Firmness: {{ cheese.get_firmness_display }}</p>
-{% endif %}
+USE_L10N = True
 
-{% if cheese.description %}
-    <p>{{ cheese.description }}</p>
-{% endif %}
-
-{% endblock content %}
+USE_TZ = True

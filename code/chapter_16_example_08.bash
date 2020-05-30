@@ -33,7 +33,7 @@ author_name [Your name here]:
 domain_name [everycheese.com]:
 email [your-name-here@example.com]:
 timezone [UTC]:
-windows [n]:
+windows [n]:  # On Windows change to 'y'
 Select database:
 1 - PostgreSQL
 2 - SQLite
