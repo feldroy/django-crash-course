@@ -2,6 +2,7 @@
 
 ## Beta Changelog 2020-06-22
 
+- Moved the changelog entirely to this file in this repo
 - Change title bar to be dark in theuy django-crash-starter project to match screen captures
 - Remove call to `CheeseFactory` in all chapters `test_good_cheese_create_view()` is defined
 - Added footer with link to issue tracker on all pages
