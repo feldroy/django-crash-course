@@ -1,5 +1,32 @@
 # Changelog 
 
+## Beta Changelog 2020-06-22
+
+- Change title bar to be dark in theuy django-crash-starter project to match screen captures
+- Remove call to `CheeseFactory` in all chapters `test_good_cheese_create_view()` is defined
+- Added footer with link to issue tracker on all pages
+- Include BitWarden and KeePass as open source password managers in chapters 6, 22, and 31
+- Installing Conda on Linux now instructs to say "yes" to "init" in chapter 1
+- Explain why we are installing Python 3.7 conda in a Python 3.8 book in chapter 1
+- Remove unnecessary first header in chapter 3
+- Have readers check that Django was installed correctly in chapter 3
+- Included explanation for creating and running migrations in chapter 22
+- Added 'Explaining "|linebreaksbr"' section to chapter 24
+- Add description of how template tags work in chapter 36
+- Added Stracchino to cheese list to have countries specified in chapter 45
+- Remove unnecessary `(object)` from `MyMixin` declaration in chapter 48
+- `test__str__()` in chapter 52 now matches what existed in previous chapters, replacing missing assertion in `test_models.py`
+- Added ongoing count of tests so people know they are on track in chapters 53, 54, 55, and 56
+ 
+## Beta Changelog 2020-06-05
+
+- Grammar fixes
+- Added explanation of HTTP methods to chapter 33
+- Remove `object` as super class in example mixin in chapter 33
+- Explain differences between HTTP methods in chapter 33
+- Explain that request.GET and request.POST are dictionary-like objects in chapter 33
+- Provide clearer description for usage of django-braces in chapter 33
+
 ## Beta Changelog 2020-05-28
 
 - Close all `{% endblock %}` tags consistently across the book 
