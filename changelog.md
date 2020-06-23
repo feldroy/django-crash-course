@@ -1,6 +1,6 @@
 # Changelog 
 
-## Beta Changelog 2020-06-22
+## Beta Changelog 2020-06-23
 
 - Moved the changelog entirely to this file in this repo
 - Change title bar to be dark in theuy django-crash-starter project to match screen captures
