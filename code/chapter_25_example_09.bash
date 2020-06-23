@@ -26,4 +26,8 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-coverage report
+python
+Python 3.8.1 (default, Jan  8 2020, 16:15:59) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda
+Type "help", "copyright", "credits" or "license"
+>>>

@@ -29,6 +29,9 @@ given here, please contact us at hi@feldroy.com.
 """
 
 THIRD_PARTY_APPS = [
-    ...
-    "django_countries", # CountryField
+    "crispy_forms",
+    "allauth",
+    "allauth.account",
+    "allauth.socialaccount",
+    "django_countries",  # CountryField    
 ]

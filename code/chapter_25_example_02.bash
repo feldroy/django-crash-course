@@ -27,7 +27,6 @@
 # given here, please contact us at hi@feldroy.com.
 
 Test session starts 
-<snip various coverage warnings>
 platform: darwin, Python 3.8.1, pytest 5.3.4, pytest-sugar 0.9.2
 django: settings: config.settings.test (from option)
 rootdir: /Users/drg/projects/everycheese, inifile: pytest.ini

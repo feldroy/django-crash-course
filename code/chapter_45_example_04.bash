@@ -37,3 +37,5 @@ everycheese/users/tests/test_models.py ✓                                      
 everycheese/users/tests/test_urls.py ✓✓✓                                                     67% ██████▋   
 everycheese/users/tests/test_views.py ✓✓✓                                                   100% ██████████
 
+Results (0.55s):
+      10 passed

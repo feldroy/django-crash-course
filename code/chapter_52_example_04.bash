@@ -26,7 +26,17 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-git status
-git add -A
-git commit -m "Add test for get_absolute_url() method"
-git push origin master
+(venv) everycheese a♥d♥u coverage run -m pytest
+Test session starts (platform: darwin, Python 3.8.2, pytest 5.3.5, pytest-sugar 0.9.3)
+django: settings: config.settings.test (from option)
+rootdir: /Users/drg/projects/everycheese, inifile: pytest.ini
+plugins: django-3.9.0, Faker-4.1.0, sugar-0.9.3, django-test-plus-1.4.0
+collecting ... 
+ everycheese/cheeses/tests/test_models.py ✓✓                      18% █▊        
+ everycheese/users/tests/test_forms.py ✓                          27% ██▊       
+ everycheese/users/tests/test_models.py ✓                         36% ███▋      
+ everycheese/users/tests/test_urls.py ✓✓✓                         64% ██████▍   
+ everycheese/users/tests/test_views.py ✓✓✓✓                      100% ██████████
+
+Results (0.52s):
+      11 passed

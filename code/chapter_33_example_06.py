@@ -29,7 +29,7 @@ given here, please contact us at hi@feldroy.com.
 """
 
 # No need to type this out, just study it!
-class BaseProjectMixin(object):
+class BaseProjectMixin:
     def complex_data(self, request):
         # Sophisticated Logic Here
         return 'sophisticated result'

@@ -1,4 +1,3 @@
-"""
 Using This Code Example
 =========================
 The code examples provided are provided by Daniel and Audrey Feldroy of
@@ -26,6 +25,6 @@ Audrey Feldroy. Copyright 2020 Feldroy."
 
 If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
-"""
 
-def test_good_cheese_detail_view(rf, cheese):
+
+navbar-dark bg-dark

@@ -26,7 +26,4 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-git status
-git add -A
-git commit -m "Write tests for all cheese views"
-git push origin master
+coverage run -m pytest

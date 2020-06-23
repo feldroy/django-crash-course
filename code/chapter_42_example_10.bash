@@ -27,9 +27,8 @@
 # given here, please contact us at hi@feldroy.com.
 
 coverage run -m pytest
-<snip for brevity)>
 Test session starts
-(platform: darwin, Python 3.8.1, pytest 5.3.4, pytest-sugar 0.9.2)
+(platform: darwin, Python 3.8.2, pytest 5.3.5, pytest-sugar 0.9.3)
 django: settings: config.settings.test (from option)
 rootdir: /Users/drg/projects/everycheese, inifile: pytest.ini
 plugins: sugar-0.9.2, django-3.8.0
@@ -39,3 +38,6 @@ collecting ...
  everycheese/users/tests/test_models.py ✓                                                     33% ███▍      
  everycheese/users/tests/test_urls.py ✓✓✓                                                     67% ██████▋   
  everycheese/users/tests/test_views.py ✓✓✓                                                   100% ███████
+
+Results (0.66s):
+      10 passed

@@ -28,12 +28,9 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-import pytest
-
-from everycheese.users.models import User
-
-pytestmark = pytest.mark.django_db
-
-
-def test_user_get_absolute_url(user: User):
-    assert user.get_absolute_url() == f"/users/{user.username}/"
+>>> assert 1 == 1
+>>> assert 1 == 2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AssertionError
+>>> 

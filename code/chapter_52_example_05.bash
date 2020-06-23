@@ -26,4 +26,7 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-python manage.py migrate
+git status
+git add -A
+git commit -m "Add test for get_absolute_url() method"
+git push origin master

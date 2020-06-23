@@ -26,4 +26,17 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-python manage.py migrate
+Test session starts (platform: darwin, Python 3.8.2, pytest 5.3.5)
+django: settings: config.settings.test (from option)
+rootdir: /Users/drg/projects/everycheese, inifile: pytest.ini
+plugins: django-3.9.0, Faker-4.1.0, sugar-0.9.3
+collecting ... 
+ everycheese/cheeses/tests/test_models.py ✓✓    17% █▋        
+ everycheese/cheeses/tests/test_views.py ✓      25% ██▌       
+ everycheese/users/tests/test_forms.py ✓        33% ███▍      
+ everycheese/users/tests/test_models.py ✓       42% ████▎     
+ everycheese/users/tests/test_urls.py ✓✓✓       67% ██████▋   
+ everycheese/users/tests/test_views.py ✓✓✓✓    100% ██████████
+
+Results (0.64s):
+      12 passed

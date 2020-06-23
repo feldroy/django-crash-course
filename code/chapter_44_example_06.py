@@ -31,7 +31,7 @@ given here, please contact us at hi@feldroy.com.
 from django_countries.fields import CountryField
 
 class Cheese(TimeStampedModel):
-    ...
+    # ... already existings fields here  
     country_of_origin = CountryField(
         "Country of Origin", blank=True
     )

@@ -1,4 +1,3 @@
-"""
 Using This Code Example
 =========================
 The code examples provided are provided by Daniel and Audrey Feldroy of
@@ -26,16 +25,6 @@ Audrey Feldroy. Copyright 2020 Feldroy."
 
 If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
-"""
 
-def test_good_cheese_create_view(rf, admin_user):
-    # Order some cheese from the CheeseFactory
-    cheese = CheeseFactory()
-    # Make a request for our new cheese
-    request = rf.get(reverse("cheeses:add"))
-    # Add an authenticated user
-    request.user = admin_user
-    # Use the request to get the response
-    response = CheeseCreateView.as_view()(request)
-    # Test that the response is valid
-    assert response.status_code == 200   
+
+navbar-light bg-light
