@@ -30,5 +30,8 @@ given here, please contact us at hi@feldroy.com.
 
 in [1]: cheese = Cheese.objects.create(
 ... name='Colby',
-... description='Similar to Cheddar but without undergoing the cheddaring process, Colby is a mild, creamy cheese that was first created in 1885 in Colby, Wisconsin.',
+... description=('Similar to Cheddar but without undergoing'
+                'the cheddaring process, Colby is a mild, creamy'
+                'cheese that was first created in 1885 in Colby,'
+                ' Wisconsin.'),
 ... firmness=Cheese.Firmness.SEMI_HARD)

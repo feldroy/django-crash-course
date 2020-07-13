@@ -27,4 +27,3 @@
 # given here, please contact us at hi@feldroy.com.
 
 conda create -n everycheese python=3.8
-conda activate everycheese

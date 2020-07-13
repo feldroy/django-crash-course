@@ -1,9 +1,34 @@
 # Changelog 
 
+## Beta Changelog 2020-07-13
+ 
+- Added tip for indenting Python in chapter 12
+- Divided instructions on how to create and activate a Conda environment in chapter 15
+- Updated the comment about the number of installed packages in chapter 16
+- Add instructions about how to create the `projects` directory from command-line in chapter 16
+- On Windows, create the `projects` directory in the User's Home insteadof `C:\` to avoid permission errors on non-Administrator users in chapter 16
+- Added the windows `dir` command on explanation about how to list files and folders from the command-line in chapter 16
+- Added a note about where is located the User's Home directory on Windows, Linux, and Mac and related environment variables in chapter 16 
+- On Windows, use `\` character as the path separator in `pip install` sample on chapter 18
+- Added a note about how to open the GUI file manager from the terminal/command-line on Windows, Linux and Mac in chapter 16
+- Replaced `createdb` by `pg_isready` to verify if PostgreSQL is running in chapter 18
+- Added a warning to remember to activate the everycheese conda environment in chapter 18
+- Added missing reminder in chapter 18
+- Reduced the commit message size to prevent text leaking out of the margin of the book in chapter 20
+- Included instructions on how to get VS Code to "Auto Save" in chapter 23
+- Made ending paragraph about migrations more clear in chapter 23 
+- Rewrite the 'description' string value in the `shell_plus` sample to prevent the text from leaking out of the book margin in chapter 28
+- Updated the '94% coverage' image in chapter 29
+- Updated the cheese create tests to use a regular user and `client.force_login()` in chapter 53
+- In Chapter 54, the pytest fixture is now the second fixture 
+- Refactor multiple tests of update views in chapter 56
+
 ## Beta Changelog 2020-06-23
 
-- Moved the changelog entirely to this file in this repo
-- Change title bar to be dark in theuy django-crash-starter project to match screen captures
+- Updated the python packages installation logs in chapter 1 and 16
+- Improved the Mac PostgreSQL installation tutorial in chapter in chapter 1
+- Updated cookiecutter install sample in chapter 16
+- Change title bar to be dark in the django-crash-starter project to match screen captures
 - Remove call to `CheeseFactory` in all chapters `test_good_cheese_create_view()` is defined
 - Added footer with link to issue tracker on all pages
 - Include BitWarden and KeePass as open source password managers in chapters 6, 22, and 31
@@ -270,3 +295,4 @@
 ## Alpha Changelog 2020-02-03 
 
 - Release of the alpha!
+

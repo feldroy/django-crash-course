@@ -26,11 +26,4 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-Cloning into 'django-crash-starter'...
-remote: Counting objects: 3955, done.
-remote: Compressing objects: 100% (142/142), done.
-remote: Total 3955 (delta 85), reused 0 (delta 0), pack-reused 3811
-Receiving objects: 100% (3955/3955), 722.02 KiB | 0 bytes/s, done.
-Resolving deltas: 100% (2425/2425), done.
-Checking connectivity... done.
-project_name [EveryCheese]:
+cd ~/projects/

@@ -28,15 +28,12 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-def test_cheese_list_contains_2_cheeses(rf):
-    # Let's create a couple cheeses
-    cheese1 = CheeseFactory()    
-    cheese2 = CheeseFactory()  
-    # Create a request and then a response 
-    #   for a list of cheeses
-    request = rf.get(reverse('cheeses:list'))
-    response = CheeseListView.as_view()(request)
-    # Assert that the response contains both cheese names
-    #   in the template.
-    assertContains(response, cheese1.name)
-    assertContains(response, cheese2.name)   
+def test_good_cheese_create_view(client, user):
+    # Make the client authenticate
+    client.force_login(user)
+    # Specify the URL of the view
+    url = reverse("cheeses:add")
+    # Use the client to make the request
+    response = client.get(url)
+    # Test that the response is valid
+    assert response.status_code == 200 

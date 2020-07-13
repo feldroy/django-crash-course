@@ -27,4 +27,4 @@
 # given here, please contact us at hi@feldroy.com.
 
 git commit \
--m "Boilerplate files generated from the django-crash-starter project template."
+-m "Generated from the django-crash-starter project template."

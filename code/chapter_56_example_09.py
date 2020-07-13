@@ -28,23 +28,21 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-def test_cheese_update(rf, admin_user, cheese):    
+def test_cheese_update(client, user, cheese):
     """POST request to CheeseUpdateView updates a cheese
         and redirects.
     """
+    # Authenticate the user
+    client.force_login(user)
     # Make a request for our new cheese
     form_data = {
-        'name': cheese.name,
-        'description': 'Something new',
-        'firmness': cheese.firmness
+        "name": cheese.name,
+        "description": "Something new",
+        "firmness": cheese.firmness,
     }
-    url = reverse("cheeses:update", 
-        kwargs={'slug': cheese.slug})    
-    request = rf.post(url, form_data)
-    request.user = admin_user
-    callable_obj = CheeseUpdateView.as_view()
-    response = callable_obj(request, slug=cheese.slug)
+    url = reverse("cheeses:update", kwargs={"slug": cheese.slug})
+    response = client.post(url, form_data)
 
     # Check that the cheese has been changed
     cheese.refresh_from_db()
-    assert cheese.description == 'Something new'
+    assert cheese.description == "Something new"

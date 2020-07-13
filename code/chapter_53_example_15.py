@@ -28,22 +28,16 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-def test_cheese_create_form_valid(rf, admin_user):
-    # Submit the cheese add form
-    form_data = {
-        "name": "Paski Sir",
-        "description": "A salty hard cheese",
-        "firmness": Cheese.Firmness.HARD
-    }
-    request = rf.post(reverse("cheeses:add"), form_data)
-    request.user = admin_user
-    response = CheeseCreateView.as_view()(request)
-
-    # Get the cheese based on the name
-    cheese = Cheese.objects.get(name="Paski Sir")
-
-    # Test that the cheese matches our form
-    assert cheese.description == "A salty hard cheese"
-    assert cheese.firmness == Cheese.Firmness.HARD
-    assert cheese.creator == admin_user
-
+def test_detail_contains_cheese_data(rf):
+    cheese = CheeseFactory()
+    # Make a request for our new cheese
+    url = reverse("cheeses:detail", 
+        kwargs={'slug': cheese.slug})
+    request = rf.get(url)
+    # Use the request to get the response
+    callable_obj = CheeseDetailView.as_view()
+    response = callable_obj(request, slug=cheese.slug)   
+    # Let's test our Cheesy details!
+    assertContains(response, cheese.name) 
+    assertContains(response, cheese.get_firmness_display())
+    assertContains(response, cheese.country_of_origin.name)

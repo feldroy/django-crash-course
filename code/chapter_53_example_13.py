@@ -28,16 +28,15 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-def test_detail_contains_cheese_data(rf):
-    cheese = CheeseFactory()
-    # Make a request for our new cheese
-    url = reverse("cheeses:detail", 
-        kwargs={'slug': cheese.slug})
-    request = rf.get(url)
-    # Use the request to get the response
-    callable_obj = CheeseDetailView.as_view()
-    response = callable_obj(request, slug=cheese.slug)   
-    # Let's test our Cheesy details!
-    assertContains(response, cheese.name) 
-    assertContains(response, cheese.get_firmness_display())
-    assertContains(response, cheese.country_of_origin.name)
+def test_cheese_list_contains_2_cheeses(rf):
+    # Let's create a couple cheeses
+    cheese1 = CheeseFactory()    
+    cheese2 = CheeseFactory()  
+    # Create a request and then a response 
+    #   for a list of cheeses
+    request = rf.get(reverse('cheeses:list'))
+    response = CheeseListView.as_view()(request)
+    # Assert that the response contains both cheese names
+    #   in the template.
+    assertContains(response, cheese1.name)
+    assertContains(response, cheese2.name)   

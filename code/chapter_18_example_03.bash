@@ -26,7 +26,4 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-createdb: could not connect to database postgres:
-could not connect to server: No such file or directory
- Is the server running locally and accepting
- connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+/var/run/postgresql:5432 - accepting connections

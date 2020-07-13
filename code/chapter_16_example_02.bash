@@ -26,7 +26,4 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-Collecting package metadata (current_repodata.json): done
-Solving environment: done
-<snip for brevity>
-Proceed ([y]/n)? 
+conda install -c conda-forge cookiecutter

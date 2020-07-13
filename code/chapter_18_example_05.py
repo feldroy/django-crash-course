@@ -29,8 +29,10 @@ given here, please contact us at hi@feldroy.com.
 """
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'everycheese.db'),
-    }
+    # Raises ImproperlyConfigured Exception
+    # if DATABASE_URL Not in os.environ
+    "default": env.db(
+        "DATABASE_URL",
+        default="postgres://user:passwd@localhost:5432/everycheese"
+    )
 }

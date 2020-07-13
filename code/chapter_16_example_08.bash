@@ -26,15 +26,4 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-project_name [EveryCheese]:
-project_slug [everycheese]:
-description [The Ultimate Cheese Index!]:
-author_name [Your name here]:
-domain_name [everycheese.com]:
-email [your-name-here@example.com]:
-timezone [UTC]:
-windows [n]:  # On Windows change to 'y'
-Select database:
-1 - PostgreSQL
-2 - SQLite
-Choose from 1, 2 [1]: 
+cd %USERPROFILE%\projects\

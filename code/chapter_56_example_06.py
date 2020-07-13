@@ -28,9 +28,11 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-def test_cheese_create_correct_title(rf, admin_user):
+def test_cheese_create_correct_title(client, user):
     """Page title for CheeseCreateView should be Add Cheese."""
-    request = rf.get(reverse('cheeses:add'))
-    request.user = admin_user
-    response = CheeseCreateView.as_view()(request)
-    assertContains(response, 'Add Cheese') 
+    # Authenticate the user
+    client.force_login(user)
+    # Call the cheese add view
+    response = client.get(reverse("cheeses:add"))
+    # Confirm that 'Add Cheese' is in the rendered HTML
+    assertContains(response, "Add Cheese")

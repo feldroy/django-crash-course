@@ -28,15 +28,12 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-def test_good_cheese_update_view(rf, admin_user, cheese):
-    url = reverse("cheeses:update", 
-        kwargs={'slug': cheese.slug})
-    # Make a request for our new cheese
-    request = rf.get(url)
-    # Add an authenticated user
-    request.user = admin_user
-    # Use the request to get the response
-    callable_obj = CheeseUpdateView.as_view()
-    response = callable_obj(request, slug=cheese.slug)
+def test_good_cheese_update_view(client, user, cheese):
+    # Authenticate the user
+    client.force_login(user)
+    # Get the URL
+    url = reverse("cheeses:update", kwargs={"slug": cheese.slug})
+    # Fetch the GET request for our new cheese
+    response = client.get(url)
     # Test that the response is valid
-    assertContains(response, "Update Cheese")  
+    assertContains(response, "Update Cheese")
