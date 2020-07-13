@@ -29,6 +29,11 @@
 - Improved the Mac PostgreSQL installation tutorial in chapter in chapter 1
 - Updated cookiecutter install sample in chapter 16
 - Change title bar to be dark in the django-crash-starter project to match screen captures
+- Moved the changelog entirely to this file in this repo
+- Updated the python packages installation logs in chapter 1 and 16
+- Improved the Mac PostgreSQL installation tutorial in chapter in chapter 1
+- Updated cookiecutter install sample in chapter 16
+- Change title bar to be dark in theuy django-crash-starter project to match screen captures
 - Remove call to `CheeseFactory` in all chapters `test_good_cheese_create_view()` is defined
 - Added footer with link to issue tracker on all pages
 - Include BitWarden and KeePass as open source password managers in chapters 6, 22, and 31
