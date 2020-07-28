@@ -28,7 +28,7 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-def test___str__():
+def test__str__():
     cheese = CheeseFactory()
     assert cheese.__str__() == cheese.name
     assert str(cheese) == cheese.name

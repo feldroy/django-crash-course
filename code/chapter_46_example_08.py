@@ -28,4 +28,8 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-from django.urls import reverse
+    def get_absolute_url(self):
+        """Return absolute URL to the Cheese Detail page."""
+        return reverse(
+            'cheeses:detail', kwargs={"slug": self.slug}
+        )

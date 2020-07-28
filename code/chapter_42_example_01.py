@@ -28,6 +28,7 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
+from everycheese.cheeses.tests.factories import CheeseFactory
 >>> cheese = CheeseFactory(name="Sample Cheese From Factory")
 >>> cheese
 <Sample Cheese from Factory>
