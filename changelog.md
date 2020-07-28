@@ -1,5 +1,18 @@
 # Changelog 
 
+
+## Beta Changelog 2020-07-28
+
+- Cleanup of 127.0.0.1:8000 links across the book
+- Replace all instances of `test___str__()` with `test__str__()` 
+- Specify "Until we finish this project" instead of "for the rest of this course" in chapter 3
+- Added pagebreak after chapter 17
+- Install Django before trying to use it in chapter 18
+- Included missing `shell_plus` imports of `CheeseFactory` to Chapters 41 and 42
+- Put `reverse` import before the rest of the example to improve clarity in chapter 46
+- Put `settings` import before the rest of the example to improve clarity in chapter 49
+- Mentioned our online courses including for this book at [https://www.feldroy.com/pages/courses](www.feldroy.com/pages/courses)
+
 ## Beta Changelog 2020-07-13
  
 - Added tip for indenting Python in chapter 12
@@ -29,11 +42,6 @@
 - Improved the Mac PostgreSQL installation tutorial in chapter in chapter 1
 - Updated cookiecutter install sample in chapter 16
 - Change title bar to be dark in the django-crash-starter project to match screen captures
-- Moved the changelog entirely to this file in this repo
-- Updated the python packages installation logs in chapter 1 and 16
-- Improved the Mac PostgreSQL installation tutorial in chapter in chapter 1
-- Updated cookiecutter install sample in chapter 16
-- Change title bar to be dark in theuy django-crash-starter project to match screen captures
 - Remove call to `CheeseFactory` in all chapters `test_good_cheese_create_view()` is defined
 - Added footer with link to issue tracker on all pages
 - Include BitWarden and KeePass as open source password managers in chapters 6, 22, and 31
