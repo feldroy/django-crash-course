@@ -1,5 +1,11 @@
 # Changelog 
 
+## Beta Changelog 2020-07-29
+
+- Lots and lots of grammar polishing across the book
+- Removed unnecessary reference to UserUpdateForm in chapter 23
+- Specify better where to add link to CheeseUpdateView in chapter 55
+
 
 ## Beta Changelog 2020-07-28
 
