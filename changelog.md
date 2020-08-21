@@ -1,5 +1,18 @@
 # Changelog 
 
+
+## Beta Changelog 2020-08-21
+
+- Supporting Django 3.1's new `Path` usage for files across the book
+- Updated Conda installation to the new Python 3.8 package  in chapter 1
+- Remove unnecessary imports in chapter 53
+
+## Beta Changelog 2020-08-10
+
+- New cover!
+- Defined Django 3.1 as the minimum version of Django on the `hellodjango` code samples
+- Use pathlib on chapter 9 and 18 to be compatible with Django 3.1
+
 ## Beta Changelog 2020-07-29
 
 - Lots and lots of grammar polishing across the book

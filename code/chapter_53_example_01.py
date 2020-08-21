@@ -32,17 +32,12 @@ import pytest
 from pytest_django.asserts import assertContains
 
 from django.urls import reverse
-from django.contrib.sessions.middleware \
-    import SessionMiddleware
-from django.test import RequestFactory
 
-from everycheese.users.models import User
+from .factories import CheeseFactory
 from ..models import Cheese
 from ..views import (
-    CheeseCreateView,
     CheeseListView,
     CheeseDetailView
 )
-from .factories import CheeseFactory
 
 pytestmark = pytest.mark.django_db

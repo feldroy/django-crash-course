@@ -31,6 +31,6 @@ given here, please contact us at hi@feldroy.com.
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'everycheese.db'),
+        'NAME': str(BASE_DIR, 'everycheese.db'),
     }
 }

@@ -27,16 +27,16 @@
 # given here, please contact us at hi@feldroy.com.
 
 Collecting django
-  Downloading Django-3.0.7-py3-none-any.whl (7.5 MB)
-     |████████████████████████████████| 7.5 MB 3.3 MB/s
-Collecting asgiref~=3.2
+  Downloading Django-3.1-py3-none-any.whl (7.8 MB)
+     |████████████████████████████████| 7.8 MB 8.9 MB/s
+Collecting asgiref~=3.2.10
   Downloading asgiref-3.2.10-py3-none-any.whl (19 kB)
 Collecting pytz
   Downloading pytz-2020.1-py2.py3-none-any.whl (510 kB)
-     |████████████████████████████████| 510 kB 8.0 MB/s
+     |████████████████████████████████| 510 kB 13.0 MB/s
 Collecting sqlparse>=0.2.2
   Downloading sqlparse-0.3.1-py2.py3-none-any.whl (40 kB)
-     |████████████████████████████████| 40 kB 10.1 MB/s
+     |████████████████████████████████| 40 kB 24.2 MB/s
 Installing collected packages: asgiref, pytz, sqlparse, django
-Successfully installed asgiref-3.2.10 django-3.0.7 pytz-2020.1
-sqlparse-0.3.1
+Successfully installed asgiref-3.2.10 django-3.1 pytz-2020.1
+sqlparse-0.3.
