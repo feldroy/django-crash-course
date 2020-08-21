@@ -1,6 +1,12 @@
+<!--
+
 ## Greetings! 
 
 Hello! As a reader, you're encouraged to submit bug reports to us for errors that you find. In turn we will give you credit for your contributions in not just the e-book but also in the print paperback and online publicly on the web. This is your opportunity to have your name in one of our books as a contributor, which you are then welcome to add to your resume and LinkedIn profile. (Note: TODOs are markers to let you know we are going to expand an area, so reporting them during the ALPHA and BETA period **doesn't** qualify as an attributable item.)
+
+Please, fill in all the information requested below. Without them, it is very difficult to find out which part of the book and what problem you are facing.
+
+-->
 
 ## Location within the Book
 
@@ -9,6 +15,24 @@ Hello! As a reader, you're encouraged to submit bug reports to us for errors tha
 * Chapter or Appendix:
 * Section:
 * Subsection:
+* What operating system are you using:
+  - [ ] Linux (Ubuntu 20.04)
+  - [ ] Linux (Ubuntu 18.04)
+  - [ ] Linux (Other)
+  - [ ] MacOS Catalina
+  - [ ] MacOS Mojave
+  - [ ] MacOS Big Sur
+  - [ ] Windows 10 Pro, Version 2004 or higher
+  - [ ] Windows 10 Pro, Version 1909 or lower
+  - [ ] Windows 10 Home, Version 2004 or higher
+  - [ ] Windows 10 Home, Version 1909 or lower
+
+<!--
+  Note: 
+  - To check the Windows 10 version, open the run menu by pressing the WindowsKey + R shortcut, then type "winver" (without the quotes) and press ENTER.
+  - To check the Mac version, click on the Apple icon in the upper left corner of the screen, then click on "About This Mac"
+-->
+
 
 Hint: Page numbers change all the time. The best way to report an issue is by chapter, section, and subsection numbers.
 
