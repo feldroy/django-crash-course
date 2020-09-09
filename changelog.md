@@ -1,5 +1,25 @@
 # Changelog 
 
+## Beta Changelog 2020-09-01
+
+- Link to command-line tutorials in the introduction
+- Removed mention that VS Code is open source in chapter 1
+- Mention `pathlib.Path` in chapter 9
+- Added use of `.env` to chapter 18 for managing of secrets
+- Removed duplicate instructions in chapter 18
+- Matched the book with django-crash-starter for postgre `DATABASES` definition in chapter 18 
+- Explain how to exit `shell_plus` with `ctrl+d` in chapter 28
+- Fixed the wonky image problems in chapter 22
+- Fixed the wonky image problems in chapter 46
+
+
+## Beta Changelog 2020-08-22
+
+- Various grammar changes
+- Fix pathlib usage on sqlite database configuration
+- Updated the grid description in chapter 44
+- Use lists consistently with urlpatterns in chapter 46
+- Removed duplicated names from chapter 60
 
 ## Beta Changelog 2020-08-21
 

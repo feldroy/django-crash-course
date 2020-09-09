@@ -40,6 +40,9 @@ def test_cheese_create_form_valid(client, user):
     url = reverse("cheeses:add")
     response = client.post(url, form_data)
 
+    # Test the results for redirect
+    assert response.status_code == 302
+
     # Get the cheese based on the name
     cheese = Cheese.objects.get(name="Paski Sir")
 

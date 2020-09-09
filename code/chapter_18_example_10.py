@@ -32,7 +32,6 @@ DATABASES = {
     # Raises ImproperlyConfigured Exception
     # if DATABASE_URL Not in os.environ
     "default": env.db(
-        "DATABASE_URL",
-        default="postgres://user:passwd@localhost:5432/everycheese"
+        "DATABASE_URL", default="postgres:///everycheese",
     )
 }

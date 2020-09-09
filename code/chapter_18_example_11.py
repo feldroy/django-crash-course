@@ -29,8 +29,8 @@ given here, please contact us at hi@feldroy.com.
 """
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': str(BASE_DIR, 'everycheese.db'),
-    }
+    "default": env.db(
+        "DATABASE_URL",
+        default=f"sqlite:///{str(BASE_DIR / 'everycheese.db')}",
+    )
 }
