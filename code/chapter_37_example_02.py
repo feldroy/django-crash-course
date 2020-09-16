@@ -28,9 +28,9 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-# URL Pattern for the CheeseDetailView
-path(
-    route='<slug:slug>/',
-    view=views.CheeseDetailView.as_view(),
-    name='detail'
-),
+    # URL Pattern for the CheeseDetailView
+    path(
+        route='<slug:slug>/',
+        view=views.CheeseDetailView.as_view(),
+        name='detail'
+    ),

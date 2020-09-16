@@ -28,5 +28,5 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-def __str__(self):
-    return self.name
+    def __str__(self):
+        return self.name

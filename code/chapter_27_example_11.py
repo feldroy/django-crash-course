@@ -28,4 +28,5 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-    name = 'everycheese.cheeses'
+if cheese.firmness == Cheese.Firmness.SOFT:
+    # Do Something

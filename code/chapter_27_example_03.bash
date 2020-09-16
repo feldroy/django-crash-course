@@ -26,18 +26,4 @@
 # If you feel your use of code examples falls outside fair use of the permission
 # given here, please contact us at hi@feldroy.com.
 
-Name                                    Stmts   Miss  Cover
------------------------------------------------------------
-everycheese/__init__.py                     2      0   100%
-everycheese/conftest.py                    13      0   100%
-everycheese/contrib/__init__.py             0      0   100%
-everycheese/contrib/sites/__init__.py       0      0   100%
-everycheese/users/__init__.py               0      0   100%
-everycheese/users/admin.py                 12      0   100%
-everycheese/users/apps.py                  10      0   100%
-everycheese/users/forms.py                 18      0   100%
-everycheese/users/models.py                 9      0   100%
-everycheese/users/urls.py                   4      0   100%
-everycheese/users/views.py                 23      0   100%
------------------------------------------------------------
-TOTAL                                      91      0   100%
+move cheeses everycheese\

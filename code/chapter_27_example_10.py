@@ -28,5 +28,16 @@ If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at hi@feldroy.com.
 """
 
-if cheese.firmness == Cheese.Firmness.SOFT:
-    # Do Something
+class Cheese(TimeStampedModel):
+
+    class Firmness(models.TextChoices):
+        UNSPECIFIED = "unspecified", "Unspecified"
+        SOFT = "soft", "Soft"
+        SEMI_SOFT = "semi-soft", "Semi-Soft"
+        SEMI_HARD = "semi-hard", "Semi-Hard"
+        HARD = "hard", "Hard"
+
+    # Other Fields Here...
+
+    firmness = models.CharField("Firmness", max_length=20,      
+        choices=Firmness.choices, default=Firmness.UNSPECIFIED) 

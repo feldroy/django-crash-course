@@ -30,11 +30,8 @@ given here, please contact us at hi@feldroy.com.
 
 from django.db import models
 
-from autoslug import AutoSlugField
 from model_utils.models import TimeStampedModel
 
 
 class Cheese(TimeStampedModel):
-     name = models.CharField("Name of Cheese", max_length=255)
-     slug = AutoSlugField("Cheese Address",
-        unique=True, always_update=False, populate_from="name")
+    name = models.CharField("Name of Cheese", max_length=255)
