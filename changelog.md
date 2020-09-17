@@ -1,6 +1,6 @@
 # Changelog 
 
-## Beta Changelog 2020-09-15
+## Final Changelog 2020-09-15
 
 - Update the authorized vendors' information
 - In multiple places, specified that various third-party packages are indeed third-party packages and not part of Django
@@ -18,9 +18,7 @@
 
 
 
-
-
-## Beta Changelog 2020-09-06
+## Final Changelog 2020-09-08
 
 - Link to command-line tutorials in the introduction
 - Removed mention that VS Code is open source in chapter 1
